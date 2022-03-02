@@ -24,7 +24,7 @@ public class ProgramListActivity extends AppCompatActivity {
                         "Informatics — Ph.D.",
                         "Informatics — M.S.",
                         "Networked Systems — Ph.D.",
-                        "Networked Systems — Ph.D.",
+                        "Networked Systems — M.S.",
                         "Software Engineering — Ph.D.",
                         "Software Engineering — M.S.",
                         "Statistics — Ph.D.",

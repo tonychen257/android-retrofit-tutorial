@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     static final String TAG = MainActivity.class.getSimpleName();
     static final String BASE_URL = "https://api.themoviedb.org/3/";
     static Retrofit retrofit = null;
-    final static String API_KEY = "YOUR_API_KEY";
+    final static String API_KEY = "83c7166e041b20f4a322c48a6ee82929";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int i=0; i < ids.length; i++) {
                     tv = findViewById(ids[i]);
                     tv.setText(values[i]);
+                    Log.i("Message:", "setText for" + values[i].toString());
                 }
             }
             @Override
